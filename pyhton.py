@@ -1,7 +1,5 @@
-dict={'codingal':2,"is":2,"the":2,'best':1}
-k=2
-res =0
-for  key in dict:
-    if dict[key]==k:
-        res=res+1
-print(f"the frequency is {str(res)}")
+countrycode={"india":"0993",'Usa':"00927","japan":"902834"}
+print("country code for india")
+print(countrycode.get("india","notfound"))
+print("country code for russia")
+print(countrycode.get("russia","notfound"))
