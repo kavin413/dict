@@ -1,17 +1,7 @@
-studentdata={"id1": {"name": ["sara"],
-            "class":[5],
-            "subjectintegration":["english","math","science"]},
-            "id2": {"name": ["David"],
-            "class":[5],
-            "subjectintegration":["english","math","science"]},
-            "id3": {"name": ["David"],
-            "class":[5],
-            "subjectintegration":["english","math","science"]},
-            "id4": {"name": ["Jack"],
-            "class":[5],
-            "subjectintegration":["english","math","science"]}}
-result ={}
-for key,value in studentdata.items():
-    if value not in result.items():
-        result[key]=value
-print(result)
+dict={'codingal':2,"is":2,"the":2,'best':1}
+k=2
+res =0
+for  key in dict:
+    if dict[key]==k:
+        res=res+1
+print(f"the frequency is {str(res)}")
